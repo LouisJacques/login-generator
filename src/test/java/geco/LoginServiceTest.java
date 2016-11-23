@@ -38,6 +38,7 @@ public class LoginServiceTest  {
     @Test
     public void testAddLogin() throws NullPointerException {
        aTester.addLogin("newLog");
+        // test
        assertTrue(aTester.loginExists("newLog"));
 
     }
