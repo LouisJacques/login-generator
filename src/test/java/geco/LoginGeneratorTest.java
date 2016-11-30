@@ -42,4 +42,11 @@ public class LoginGeneratorTest {
         assertEquals(aTester.generateLoginForNomAndPrenom("Rowling","Jean"), "JROW1");
     }
 
+    @Test
+    public void testGen(){
+        assertEquals(aTester.generateLoginForNomAndPrenom("Du","Paul"), "PDU");
+
+    }
+
+
 }
